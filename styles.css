@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.seats, .bus {
+    width: 45%;
+}
+
+ul {
+    list-style: none;
+}
+
+.bus h1 {
+    text-align: center;
+}
+
+.seat {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #1DD100;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.seat.booked {
+    background-color: red;
+}
+
+.bus-layout{
+    align-items: center;
+}
